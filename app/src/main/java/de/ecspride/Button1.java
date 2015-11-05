@@ -34,20 +34,24 @@ public class Button1 extends Activity {
         //TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 		//imei = telephonyManager.getDeviceId(); //source
 
-        Button button2= (Button) findViewById(R.id.button2);
+        Button button2 = (Button) findViewById(R.id.button2);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getDevIdWrapperTop();
             }
         });
+
+        Button button3 = (Button) findViewById(R.id.button3);
+        ClickListener cl = new ClickListener();
+        button3.setOnClickListener(cl);
     }
 
     public void getDevIdWrapperTop() {
         getDevIdWrapper2();
     }
 
-    private void getDevIdWrapper2() {
+    public void getDevIdWrapper2() {
         getDevId();
     }
 
