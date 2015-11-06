@@ -13,7 +13,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="185dp"
         android:text="@string/button"
-        />
+        android:onClick="sendMessageWrapper" />
 
 
 </RelativeLayout>
