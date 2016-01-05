@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/home/hao/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jar="C:\Users\hao\Downloads\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="/home/hao/AndroidStudioProjects/Button1/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-2866035c9606cbd95970537c409f8e535f5f12d2.jar" />
+        <dex dex="C:\Users\hao\workspace\Button1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-51a07ed492669f4b08939b1fff05bae0328851f5.jar" />
     </item>
 
 </items>
