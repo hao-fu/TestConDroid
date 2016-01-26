@@ -22,6 +22,7 @@ import java.util.Calendar;
  * @description The sink is called after the user clicks a button. The button
  * handler is defined via XML.
  * Add a wrapper to sendMessage
+ * Test for gator, appcontext, and slicer
  * @dataflow source: button1, button2 retrive id; sink: intent;
  * @number_of_leaks 1
  * @challenges the analysis must analyze the layout xml file and take the lifecycle into account (onCreate is executed before user interaction)
@@ -55,15 +56,28 @@ public class Activity1 extends Activity {
         long[] res = getNaturalEvnCtxs();
         long time = res[0];
         long seconds = res[1];
-        if (time > seconds) {
+        long seconds2 = seconds;
+        int myS = mySource();
+        int myS2 = myS + 1;
+        if (time != 0 && time > seconds) {
+            seconds2 = seconds2 + 1;
             Log.i("0", "1" + time + seconds);
+            if (imei != null && !imei.isEmpty()) {
+                Toast.makeText(this, imei, Toast.LENGTH_LONG).show();
+            }
+            getDevIdWrapper2();
             while (time > 2 && seconds > 3) {
                 Log.i("2", "3" + time + seconds);
-                // getDevIdWrapper2();
+                getDevIdWrapper3();
+                Log.i("4", "" + myS);
             }
+            Log.i("5", "" + seconds2);
+            Log.i("6", "" + myS2);
         }
-
-        getDevIdWrapper2();
+        Log.i("7", "" + myS2);
+        // test the effect of appcontxt on ctrl dep
+        getDevIdWrapper4();
+        Toast.makeText(this, imei, Toast.LENGTH_LONG).show();
     }
 
     private long[] getNaturalEvnCtxs() {
@@ -79,9 +93,18 @@ public class Activity1 extends Activity {
         getDevId();
     }
 
+    private void getDevIdWrapper3() {
+        getDevIdWrapper2();
+    }
+
+    private void getDevIdWrapper4() {
+        getDevIdWrapper3();
+    }
+
     private void getDevId() {
         TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
         imei = telephonyManager.getDeviceId(); //source
+        //Toast.makeText(this, imei, Toast.LENGTH_LONG).show();
     }
 
     public void sendMessageWrapper(View view) {
@@ -90,4 +113,7 @@ public class Activity1 extends Activity {
         startActivity(intent);
     }
 
+    private int mySource() {
+        return Integer.parseInt(imei);
+    }
 }
