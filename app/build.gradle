@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "de.ecspride"
+        applicationId "fu.hao.testcondroid"
         minSdkVersion 9
         targetSdkVersion 17
     }

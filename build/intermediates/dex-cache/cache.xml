@@ -2,11 +2,40 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a7b77329e11d9ee0c27447bfe6c4a62daa668bd7">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\instant-run_3d3453abce5d63baf6575a74e1a6dfeefa043594.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\hao\Downloads\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="false"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="C:\Users\hao\workspace\Button1\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-51a07ed492669f4b08939b1fff05bae0328851f5.jar" />
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_51a07ed492669f4b08939b1fff05bae0328851f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hao\Downloads\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_51a07ed492669f4b08939b1fff05bae0328851f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="86d13e658d5b1b03846e35b9d53cb22f3a586a26">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_fe9b10522a5a4f2bb6c32f8a7163cd87e14803a2.jar" />
     </item>
 
 </items>
