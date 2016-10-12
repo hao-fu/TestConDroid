@@ -32,7 +32,11 @@ public class Activity2 extends Activity {
         });
     }
 
-    private void sendMessage(){
+    public void sendMsgByView(View view) {
+        sendMessage();
+    }
+
+    public void sendMessage(){
         Toast.makeText(this, "SMS sent.", Toast.LENGTH_LONG).show();
         SmsManager sms = SmsManager.getDefault();
         sms.sendTextMessage("+49", null, "damn", null, null);  //sink, leak

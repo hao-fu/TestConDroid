@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="86d13e658d5b1b03846e35b9d53cb22f3a586a26">
+        sha1="7d86d9409101bf3c8c6c38ed89d9c0b1f8891150">
         <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_fe9b10522a5a4f2bb6c32f8a7163cd87e14803a2.jar" />
     </item>
 
