@@ -3,39 +3,165 @@
 
     <item
         is-multidex="false"
-        jar="D:\workspace\TestConDroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="a7b77329e11d9ee0c27447bfe6c4a62daa668bd7">
-        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\instant-run_3d3453abce5d63baf6575a74e1a6dfeefa043594.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hao\Downloads\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="21.1.2"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_51a07ed492669f4b08939b1fff05bae0328851f5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\hao\Downloads\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="21.1.2"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_51a07ed492669f4b08939b1fff05bae0328851f5.jar" />
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_4b48c06f6fb066acf2e0e61a6eb7dd0a29dad851.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\workspace\TestConDroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-static\4.9.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="21.1.2"
-        sha1="7d86d9409101bf3c8c6c38ed89d9c0b1f8891150">
-        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_fe9b10522a5a4f2bb6c32f8a7163cd87e14803a2.jar" />
+        sha1="39272a9ba73cacab5b5f248893e7cbd6b9608c5e">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.mopub-mopub-sdk-native-static-4.9.0_51bf3bcb0e5076d6bc0657ce52cc4306223b187a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hao\.gradle\caches\modules-2\files-2.1\com.mopub.volley\mopub-volley\1.1.0\4357bce66ae3bb9be50679e43df122fd0a8f3394\mopub-volley-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4357bce66ae3bb9be50679e43df122fd0a8f3394">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\mopub-volley-1.1.0_4192d96ab50429e45f0d261d975aabe08f9e0156.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_bc9e154dc09ed67bfca0cca290339ea269e0ce6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.6.1_80677ca1f1cdb5435362d3f5e04d8e561d0da613.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_613b0ed026938d222e68a91560da6d7b00851e17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-native-video\4.9.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8ff95b836a54b6228ef323162dcc887a3b1181bd">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.mopub-mopub-sdk-native-video-4.9.0_543200ca31b7bb2431bf72c9187c9763e22c13c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-base\4.9.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="8ca4762a1bbf07cc027f9d158024ce4e0f47019d">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.mopub-mopub-sdk-base-4.9.0_89bee739750589405bd121b100aa258bf5825922.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk\4.9.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d03ddcb73c4eb0038aeaa53c10e873a8d8b48f58">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.mopub-mopub-sdk-4.9.0_4884bb29cc78e428daa3660cab866c6897bc6e46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_96e638a84d63d2d8c2bce3062b3457e46ff79af7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-interstitial\4.9.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="480647ff86598f692c648d1d7da8b97806d3004e">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.mopub-mopub-sdk-interstitial-4.9.0_a1ee9f49b7d660e14a15f33e628f80bc7c29f032.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-banner\4.9.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="22dd02e36666f50344f515cb6b665fe253d341dd">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.mopub-mopub-sdk-banner-4.9.0_61a63b72a9c270bbe2e84702e578089ee4c6f6a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_52107d6982687a46857945c6a87632fe7cfc8f94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_3e1cbf6eeb6a00600d850593e7c13659c003ce95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hao\Downloads\android-sdk-windows\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_69fdf82a2618f67812dc3db638ded0e960b49db3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.mopub\mopub-sdk-rewardedvideo\4.9.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="fd0504417661d9e02b3c06015e273c5e6f7115d2">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.mopub-mopub-sdk-rewardedvideo-4.9.0_8a23800e6e19cf4a84556eb57cf18e4627c92d02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.6.1_513a8b16e824d52f75b23e5cc35100ab4687accf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\workspace\TestConDroid\app\build\intermediates\exploded-aar\com.google.android.exoplayer\exoplayer\r1.5.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3c046dc3c0911d142627192884ee771d9a6f5f34">
+        <dex dex="D:\workspace\TestConDroid\app\build\intermediates\pre-dexed\debug\com.google.android.exoplayer-exoplayer-r1.5.6_a2570195479809f946bd239ad6f745b03d5fa5e7.jar" />
     </item>
 
 </items>

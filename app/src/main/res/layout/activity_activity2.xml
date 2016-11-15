@@ -37,4 +37,10 @@
         android:text="@string/button"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <com.mopub.mobileads.MoPubView
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        />
 </RelativeLayout>
